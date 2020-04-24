@@ -512,12 +512,9 @@ img {
     margin-bottom: 25px;
     text-align: center; }
   .vertical__row {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
     margin-right: -22.5px;
     margin-left: -22.5px; }
   .vertical__col {
@@ -557,10 +554,9 @@ img {
   .vertical-item__lead {
     background-color: #ffffff;
     padding: 20px;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
-    text-align: center;
-    text-transform: uppercase; }
+    text-align: center; }
   .vertical-item__text-wrap {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
