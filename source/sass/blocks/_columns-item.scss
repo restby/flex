@@ -1,0 +1,32 @@
+.columns-item {
+  &__row {
+    display: flex;
+  }
+
+  &__img-wrap {
+    flex-basis: auto;
+    flex-shrink: 0;
+  }
+
+  &__img {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
+
+  &__body {
+    padding-left: 15px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    color: $text-title-color;
+  }
+
+  &__text {
+    margin: 0;
+  }
+}

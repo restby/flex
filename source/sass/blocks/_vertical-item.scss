@@ -1,0 +1,44 @@
+.vertical-item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+  &__small {
+    padding: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: $text-vertical-color;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__lead {
+    padding: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background-color: $white-color;
+    text-align: center;
+  }
+
+  &__text-wrap {
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: $bg-btn-color;
+    border: none;
+    border-radius: 8px;
+  }
+}

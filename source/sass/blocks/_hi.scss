@@ -1,0 +1,51 @@
+.hi {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $bg-hi-color;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col {
+    &--list {
+      padding-right: 30px;
+    }
+
+    &--img {
+      flex-basis: auto;
+      flex-shrink: 0;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 60px;
+    line-height: 1.2;
+    color: $text-hi-color;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  &__list {
+    @include list-reset;
+
+    & li {
+      padding-left: 35px;
+      font-size: 20px;
+      line-height: 36px;
+      color: $text-hi-color;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+      background-image: url("../../img/icon-check.png");
+      background-position: 0 7px;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 469px;
+    height: 214px;
+  }
+}

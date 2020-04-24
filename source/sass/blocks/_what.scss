@@ -1,0 +1,39 @@
+.what {
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col {
+    &--img {
+      flex-basis: auto;
+      flex-shrink: 0;
+    }
+
+    &--text {
+      padding-left: 38px;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 430px;
+    height: 186px;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
